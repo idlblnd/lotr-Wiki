@@ -80,10 +80,6 @@ const QuoteList = () => {
                           </h3>
                         </div>
                       </div>
-                      
-                      <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                         <span className="text-amber-600/50 text-xs font-lotr tracking-widest">VIEW LORE</span>
-                      </div>
                     </div>
                   </div>
                 </div>

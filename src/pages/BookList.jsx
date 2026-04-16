@@ -54,8 +54,8 @@ const BookList = () => {
               <span className="block text-amber-300">Collected Volumes</span>
             </h1>
             <p className="mt-6 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-              This page now reads more like a curated shelf than a flat list, so each volume
-              gets its own presence and a slightly more collectible feel on hover.
+              Explore the major Tolkien volumes collected in the archive and open each one for
+              chapters, structure, and related details.
             </p>
           </div>
 
@@ -76,8 +76,7 @@ const BookList = () => {
               </div>
             </div>
             <p className="mt-5 text-sm leading-7 text-slate-400">
-              It keeps some of the card-game energy while still feeling like a wiki archive
-              instead of a separate mini-game screen.
+              Browse the collection shelf and jump into any volume from the archive.
             </p>
           </div>
         </header>
@@ -141,13 +140,7 @@ const BookList = () => {
                         </p>
                       </div>
 
-                      <div className="mt-8 flex items-center justify-between border-t border-white/10 pt-5">
-                        <div className="flex items-center gap-3">
-                          <span className={`h-2 w-2 rounded-full ${theme.dot}`} />
-                          <span className="text-[11px] uppercase tracking-[0.24em] text-slate-500">
-                            Curated entry
-                          </span>
-                        </div>
+                      <div className="mt-8 flex justify-end border-t border-white/10 pt-5">
                         <span className={`text-sm uppercase tracking-[0.2em] ${theme.accent} transition duration-500 group-hover:translate-x-1`}>
                           Open volume
                         </span>

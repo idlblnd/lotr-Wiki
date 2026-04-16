@@ -246,8 +246,8 @@ const JourneyForge = () => {
             <span className="block text-amber-300">Journey of Your Own</span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            I wanted this page to feel more like a keepsake desk than a control panel, so each
-            choice feeds a full story instead of just swapping labels around.
+            Choose a guide, a road, and a relic to generate a full Middle-earth inspired journey
+            from your selections.
           </p>
         </header>
 
@@ -257,10 +257,6 @@ const JourneyForge = () => {
               <div>
                 <p className="font-display text-[11px] uppercase tracking-[0.24em] text-slate-500">
                   Choose the guide
-                </p>
-                <p className="mt-2 text-sm leading-7 text-slate-400">
-                  This section is meant to read like a bookshelf of companions, so each option has a
-                  distinct voice before the story even begins.
                 </p>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2">
                   {guideOptions.map((option) => (

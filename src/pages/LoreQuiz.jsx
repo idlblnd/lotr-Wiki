@@ -262,7 +262,7 @@ const LoreQuiz = () => {
               <span className="block text-amber-300">Quiz Cards</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              I shaped this page like a study table instead of a game lobby, so it still feels at home inside the wiki.
+              Test your knowledge with quiz cards built from the same archive data used across the wiki.
             </p>
           </div>
 
@@ -324,9 +324,6 @@ const LoreQuiz = () => {
             <div>
               <p className="text-[11px] font-semibold uppercase tracking-[0.24em] text-slate-500">
                 Card notes
-              </p>
-              <p className="mt-5 font-serif text-base leading-8 text-slate-200">
-                Each round is built from the same archive data used across the wiki, so the quiz still reinforces the rest of the project instead of feeling disconnected.
               </p>
 
               {selectedAnswer ? (
